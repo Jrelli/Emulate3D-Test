@@ -277,7 +277,7 @@
       </P>
     </V>
     <V Name="Box1" Parent="36958058-784a-4dac-84af-e5e47b13c611" xsi:type="e3d:BoxVisual">
-      <LR>-1.122848|0.5|1.7651572|||</LR>
+      <LR>-1.212932|0.5|-1.5269828|||</LR>
       <Id>e7c85d5c-acb3-4f11-828d-1b219ebcf593</Id>
       <P xsi:type="e3d:BoxProperties">
         <Depth>1</Depth>
@@ -475,8 +475,8 @@
     <e xsi:type="e3d:DictionaryEntry">
       <key xsi:type="xsd:string">Default View</key>
       <val xsi:type="e3d:Camera">
-        <Position>-0.56629646|5.1493235|-4.4082646</Position>
-        <Target>0.059218287|-1.0966783|1.5888515</Target>
+        <Position>0.82588995|3.676068|-6.1146555</Position>
+        <Target>0.21808529|-1.2885978|2.6764317</Target>
       </val>
     </e>
     <e xsi:type="e3d:DictionaryEntry">
