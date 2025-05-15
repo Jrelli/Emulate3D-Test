@@ -4,6 +4,9 @@
     <Id>57908dc5-ef55-4d04-b407-f6d62bf723db</Id>
   </e3d:Header>
   <Resources>
+    <LayerLibrary>
+      <LayersFile>layers.csv</LayersFile>
+    </LayerLibrary>
     <FrictionMaterialLibrary />
     <FrictionConfiguration>
       <FrictionFile>friction.csv</FrictionFile>
@@ -42,6 +45,266 @@
           <E>"Light"+ID</E>
         </NewNameExpr>
         <Type>Light</Type>
+      </P>
+    </V>
+    <V Name="BoxTube1" Parent="36958058-784a-4dac-84af-e5e47b13c611" xsi:type="e3d:BoxTubeVisual">
+      <LR>0.5520871|0.005|-0.0017995834|||</LR>
+      <Id>b40976dc-9ac4-4e77-94eb-63e853b74d4c</Id>
+      <P xsi:type="e3d:BoxTubeProperties">
+        <CastsShadow>0</CastsShadow>
+        <CentreX>
+          <Material>
+            <MeshMaterial xsi:type="e3d:MeshMaterial">
+              <Diffuse>-4144960</Diffuse>
+              <Reflectivity>0.05</Reflectivity>
+            </MeshMaterial>
+          </Material>
+        </CentreX>
+        <CentreZ>
+          <Material>
+            <MeshMaterial xsi:type="e3d:MeshMaterial">
+              <Diffuse>-4144960</Diffuse>
+              <Reflectivity>0.05</Reflectivity>
+            </MeshMaterial>
+          </Material>
+        </CentreZ>
+        <CornerXmaxZmax>
+          <Radius>0.175</Radius>
+        </CornerXmaxZmax>
+        <CornerXmaxZmin>
+          <Radius>0.175</Radius>
+        </CornerXmaxZmin>
+        <CornerXminZmax>
+          <Radius>0.175</Radius>
+        </CornerXminZmax>
+        <CornerXminZmin>
+          <Radius>0.175</Radius>
+        </CornerXminZmin>
+        <CurveRadius>1</CurveRadius>
+        <CustomProperties>
+          <CP>
+            <e xsi:type="e3d:CustomProperty">
+              <Name>OnInitializeLogic</Name>
+              <Type>e3d:QLPProc</Type>
+              <Value xsi:type="e3d:QLPProc">
+                <Source>procedure [OnInitializeLogic]
+</Source>
+              </Value>
+            </e>
+          </CP>
+        </CustomProperties>
+        <Depth>0.35</Depth>
+        <EndYmax>
+          <Material>
+            <MeshMaterial xsi:type="e3d:MeshMaterial">
+              <Diffuse>-16728065</Diffuse>
+              <Reflectivity>0.05</Reflectivity>
+            </MeshMaterial>
+          </Material>
+          <Thickness>0.005</Thickness>
+          <Visible>1</Visible>
+        </EndYmax>
+        <EndYmin>
+          <Material>
+            <MeshMaterial xsi:type="e3d:MeshMaterial">
+              <Diffuse>-4144960</Diffuse>
+              <Reflectivity>0.05</Reflectivity>
+            </MeshMaterial>
+          </Material>
+        </EndYmin>
+        <FrictionMaterial>
+          <Name>Corrugated</Name>
+        </FrictionMaterial>
+        <Height>0.01</Height>
+        <Layer>Controllers</Layer>
+        <NewNameExpr>
+          <E>"BoxTube"+ID</E>
+        </NewNameExpr>
+        <OuterMaterial>
+          <MeshMaterial xsi:type="e3d:MeshMaterial">
+            <Diffuse>-16728065</Diffuse>
+            <Reflectivity>0.05</Reflectivity>
+          </MeshMaterial>
+        </OuterMaterial>
+        <ShowControlPoints>0</ShowControlPoints>
+        <SimpleProperties>
+          <Aliases>
+            <e xsi:type="e3d:Alias">
+              <Alias>Name</Alias>
+              <Path>
+                <e xsi:type="xsd:string">Name</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>World Location</Alias>
+              <Path>
+                <e xsi:type="xsd:string">VisualLocation</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>Depth</Alias>
+              <Path>
+                <e xsi:type="xsd:string">Depth</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>Height</Alias>
+              <Path>
+                <e xsi:type="xsd:string">Height</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>Width</Alias>
+              <Path>
+                <e xsi:type="xsd:string">Width</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>Thickness</Alias>
+              <Path>
+                <e xsi:type="xsd:string">Thickness</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>CornerXminZmin</Alias>
+              <Path>
+                <e xsi:type="xsd:string">CornerXminZmin</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>CornerXminZmax</Alias>
+              <Path>
+                <e xsi:type="xsd:string">CornerXminZmax</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>CornerXmaxZmin</Alias>
+              <Path>
+                <e xsi:type="xsd:string">CornerXmaxZmin</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>CornerXmaxZmax</Alias>
+              <Path>
+                <e xsi:type="xsd:string">CornerXmaxZmax</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>EndYmin</Alias>
+              <Path>
+                <e xsi:type="xsd:string">EndYmin</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>EndYmax</Alias>
+              <Path>
+                <e xsi:type="xsd:string">EndYmax</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>CentreX</Alias>
+              <Path>
+                <e xsi:type="xsd:string">CentreX</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>CentreZ</Alias>
+              <Path>
+                <e xsi:type="xsd:string">CentreZ</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>SideXminVisible</Alias>
+              <Path>
+                <e xsi:type="xsd:string">SideXminVisible</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>SideXmaxVisible</Alias>
+              <Path>
+                <e xsi:type="xsd:string">SideXmaxVisible</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>SideZminVisible</Alias>
+              <Path>
+                <e xsi:type="xsd:string">SideZminVisible</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>SideZmaxVisible</Alias>
+              <Path>
+                <e xsi:type="xsd:string">SideZmaxVisible</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>CornerRadius</Alias>
+              <Path>
+                <e xsi:type="xsd:string">CornerRadius</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>CornerStyle</Alias>
+              <Path>
+                <e xsi:type="xsd:string">CornerStyle</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>Style</Alias>
+              <Path>
+                <e xsi:type="xsd:string">Style</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>Color</Alias>
+              <Path>
+                <e xsi:type="xsd:string">OuterMaterial</e>
+                <e xsi:type="xsd:string">Color</e>
+              </Path>
+            </e>
+            <e xsi:type="e3d:Alias">
+              <Alias>OnInitializeLogic</Alias>
+              <Path>
+                <e xsi:type="xsd:string">OnInitializeLogic</e>
+              </Path>
+            </e>
+          </Aliases>
+        </SimpleProperties>
+        <StyleName>Controller</StyleName>
+        <StyleSetName>BoxTubeVisual</StyleSetName>
+        <Type>BoxTube</Type>
+        <Width>1.35</Width>
+      </P>
+    </V>
+    <V Name="Box1" Parent="36958058-784a-4dac-84af-e5e47b13c611" xsi:type="e3d:BoxVisual">
+      <LR>-1.122848|0.5|-0.14438152|||</LR>
+      <Id>e7c85d5c-acb3-4f11-828d-1b219ebcf593</Id>
+      <P xsi:type="e3d:BoxProperties">
+        <Depth>1</Depth>
+        <ExtraMaterials>
+          <MeshMaterials>
+            <e xsi:type="e3d:MeshMaterial">
+              <Diffuse>-9868951</Diffuse>
+            </e>
+            <e xsi:type="e3d:MeshMaterial">
+              <Diffuse>-1</Diffuse>
+            </e>
+          </MeshMaterials>
+        </ExtraMaterials>
+        <FrictionMaterial>
+          <Name>Corrugated</Name>
+        </FrictionMaterial>
+        <Height>1</Height>
+        <Material>
+          <MeshMaterial xsi:type="e3d:MeshMaterial">
+            <Diffuse>-1</Diffuse>
+          </MeshMaterial>
+        </Material>
+        <NewNameExpr>
+          <E>"Box"+ID</E>
+        </NewNameExpr>
+        <Type>Box</Type>
+        <Width>1</Width>
       </P>
     </V>
   </Visuals>
@@ -212,7 +475,8 @@
     <e xsi:type="e3d:DictionaryEntry">
       <key xsi:type="xsd:string">Default View</key>
       <val xsi:type="e3d:Camera">
-        <Position>-3.955127|6.299038|-6.85048</Position>
+        <Position>-0.29885375|4.268988|-5.2790904</Position>
+        <Target>-0.18891379|-1.7972283|2.8173423</Target>
       </val>
     </e>
     <e xsi:type="e3d:DictionaryEntry">
